@@ -2,6 +2,7 @@ import express, { Express, Request, Response } from 'express'
 import dotenv from 'dotenv'
 // import cors from 'cors'
 import itemsRoutes from './feature/items/item.routes'
+import authorMiddleware from './middleware/author.middleware'
 
 dotenv.config()
 
@@ -10,6 +11,7 @@ const port = process.env.PORT
 
 // app.use(cors())
 app.use(express.json())
+app.use(authorMiddleware)
 
 app.get('/api', (_req: Request, res: Response) => {
   console.log('Hello World from Express by Stiven')

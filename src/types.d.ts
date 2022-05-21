@@ -1,33 +1,28 @@
 export interface ApiListResponse {
   results: ApiItem[] | []
 }
+export type ApiItemResponse = ApiItem
+export type ApiItemDescriptionResponse = ItemDescription
 
 export interface ApiItem {
   id: string
-  site_id: string
   title: string
+  subtitle: null
+  category_id: string
   price: number
-  sale_price: number | null
+  base_price: number
+  original_price: null
+  condition: string
   currency_id: string
+  initial_quantity: number
+  shipping: Shipping
   available_quantity: number
   sold_quantity: number
-  buying_mode: string
-  listing_type_id: string
-  stop_time: Date | string
-  condition: string
-  permalink: string
   thumbnail: string
-  thumbnail_id: string
-  accepts_mercadopago: boolean
-  original_price: number | null
-  category_id: string
-  catalog_product_id: number | null
-  tags: string[]
-  order_backend: number
-  use_thumbnail_id: boolean
-  shipping: {
-    free_shipping: true
-  }
+}
+
+export interface Shipping {
+  free_shipping: boolean
 }
 
 export interface Item extends Pick<ApiItem, 'id' | 'title' | 'condition'> {
@@ -37,5 +32,10 @@ export interface Item extends Pick<ApiItem, 'id' | 'title' | 'condition'> {
     decimals: number
   }
   picture: string
-  free_shipping: true
+  free_shipping: boolean
+  description: string | null
+}
+
+export interface ItemDescription {
+  plain_text: string
 }
