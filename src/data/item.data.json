@@ -1,0 +1,1441 @@
+{
+  "site_id": "MLA",
+  "country_default_time_zone": "GMT-03:00",
+  "query": "patines",
+  "paging": {
+    "total": 10920,
+    "primary_results": 1000,
+    "offset": 0,
+    "limit": 50
+  },
+  "results": [
+    {
+      "id": "MLA732954186",
+      "site_id": "MLA",
+      "title": "Patines 4 Ruedas Artístico Blanco T Ambar Talles 26 Al 39 ",
+      "seller": {
+        "id": 28176608,
+        "permalink": "http://perfil.mercadolibre.com.ar/DISTRIBUIDORA+GRUPOUMSA",
+        "registration_date": "2010-05-15T08:28:08.000-04:00",
+        "car_dealer": false,
+        "real_estate_agency": false,
+        "tags": [
+          "normal",
+          "eshop",
+          "mshops",
+          "credits_profile",
+          "messages_as_seller"
+        ],
+        "eshop": {
+          "seller": 28176608,
+          "eshop_rubro": null,
+          "eshop_id": 273256,
+          "nick_name": "DISTRIBUIDORA GRUPOUMSA",
+          "site_id": "MLA",
+          "eshop_logo_url": "http://resources.mlstatic.com/eshops/28176608va2eed6.png",
+          "eshop_status_id": 1,
+          "eshop_experience": 0,
+          "eshop_locations": [
+          ]
+        },
+        "seller_reputation": {
+          "power_seller_status": "platinum",
+          "level_id": "5_green",
+          "metrics": {
+            "cancellations": {
+              "period": "60 days",
+              "rate": 0,
+              "value": 0
+            },
+            "claims": {
+              "period": "60 days",
+              "rate": 0.0089,
+              "value": 10
+            },
+            "delayed_handling_time": {
+              "period": "60 days",
+              "rate": 0,
+              "value": 0
+            },
+            "sales": {
+              "period": "60 days",
+              "completed": 1043
+            }
+          },
+          "transactions": {
+            "canceled": 463,
+            "period": "historic",
+            "total": 7567,
+            "ratings": {
+              "negative": 0.01,
+              "neutral": 0,
+              "positive": 0.99
+            },
+            "completed": 7104
+          }
+        }
+      },
+      "price": 7600,
+      "prices": {
+        "id": "MLA732954186",
+        "prices": [
+          {
+            "id": "59",
+            "type": "standard",
+            "amount": 7600,
+            "regular_amount": null,
+            "currency_id": "ARS",
+            "last_updated": "2022-04-26T20:09:43Z",
+            "conditions": {
+              "context_restrictions": [
+              ],
+              "start_time": null,
+              "end_time": null,
+              "eligible": true
+            },
+            "exchange_rate_context": "DEFAULT",
+            "metadata": {
+            }
+          },
+          {
+            "id": "60",
+            "type": "promotion",
+            "amount": 7220,
+            "regular_amount": 7600,
+            "currency_id": "ARS",
+            "last_updated": "2022-04-26T20:09:50Z",
+            "conditions": {
+              "context_restrictions": [
+                "channel_mshops"
+              ],
+              "start_time": "2022-03-29T16:00:00Z",
+              "end_time": "2022-04-30T03:00:00Z",
+              "eligible": true
+            },
+            "exchange_rate_context": "DEFAULT",
+            "metadata": {
+              "promotion_id": "INDIVIDUAL-MLA732954186-202203291222132213:MLA732954186",
+              "promotion_type": "custom"
+            }
+          }
+        ],
+        "presentation": {
+          "display_currency": "ARS"
+        },
+        "payment_method_prices": [
+        ],
+        "reference_prices": [
+          {
+            "id": "65",
+            "type": "min_standard",
+            "conditions": {
+              "context_restrictions": [
+                "channel_marketplace"
+              ],
+              "start_time": null,
+              "end_time": null,
+              "eligible": true
+            },
+            "amount": 6990,
+            "currency_id": "ARS",
+            "exchange_rate_context": "DEFAULT",
+            "tags": [
+            ],
+            "last_updated": "2022-05-15T04:11:36Z"
+          },
+          {
+            "id": "66",
+            "type": "was",
+            "conditions": {
+              "context_restrictions": [
+                "channel_marketplace"
+              ],
+              "start_time": "2022-05-15T04:11:36Z",
+              "end_time": "2022-05-22T04:11:36Z",
+              "eligible": true
+            },
+            "amount": 7030,
+            "currency_id": "ARS",
+            "exchange_rate_context": "DEFAULT",
+            "tags": [
+            ],
+            "last_updated": "2022-05-15T04:11:36Z"
+          }
+        ],
+        "purchase_discounts": [
+        ]
+      },
+      "sale_price": null,
+      "currency_id": "ARS",
+      "available_quantity": 1,
+      "sold_quantity": 500,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_special",
+      "stop_time": "2038-06-16T18:33:39.000Z",
+      "condition": "new",
+      "permalink": "https://articulo.mercadolibre.com.ar/MLA-732954186-patines-4-ruedas-artistico-blanco-t-ambar-talles-26-al-39-_JM",
+      "thumbnail": "http://http2.mlstatic.com/D_947213-MLA32708059521_102019-O.jpg",
+      "thumbnail_id": "947213-MLA32708059521_102019",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 1077.74,
+        "rate": 70.17,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-C",
+        "state_name": "Capital Federal",
+        "city_id": null,
+        "city_name": "Palermo"
+      },
+      "shipping": {
+        "free_shipping": true,
+        "mode": "me2",
+        "tags": [
+          "fulfillment",
+          "mandatory_free_shipping"
+        ],
+        "logistic_type": "fulfillment",
+        "store_pick_up": false
+      },
+      "seller_address": {
+        "id": "",
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-C",
+          "name": "Capital Federal"
+        },
+        "city": {
+          "id": null,
+          "name": "Palermo"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+        {
+          "value_id": "45025",
+          "value_name": "Dolphin",
+          "values": [
+            {
+              "id": "45025",
+              "name": "Dolphin",
+              "struct": null,
+              "source": 5033071320073938
+            }
+          ],
+          "attribute_group_id": "OTHERS",
+          "source": 5033071320073938,
+          "name": "Marca",
+          "value_struct": null,
+          "attribute_group_name": "Otros",
+          "id": "BRAND"
+        },
+        {
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "attribute_group_id": "OTHERS",
+          "source": 1,
+          "id": "ITEM_CONDITION",
+          "value_name": "Nuevo",
+          "value_struct": null,
+          "values": [
+            {
+              "name": "Nuevo",
+              "struct": null,
+              "source": 1,
+              "id": "2230284"
+            }
+          ],
+          "attribute_group_name": "Otros"
+        },
+        {
+          "name": "Modelo",
+          "value_id": null,
+          "value_name": "168Y",
+          "value_struct": null,
+          "values": [
+            {
+              "source": 3376461333454861,
+              "id": null,
+              "name": "168Y",
+              "struct": null
+            }
+          ],
+          "source": 3376461333454861,
+          "id": "MODEL",
+          "attribute_group_name": "Otros",
+          "attribute_group_id": "OTHERS"
+        }
+      ],
+      "original_price": null,
+      "category_id": "MLA115383",
+      "official_store_id": null,
+      "domain_id": "MLA-ROLLER_SKATES",
+      "catalog_product_id": null,
+      "tags": [
+        "loyalty_discount_eligible",
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "immediate_payment",
+        "cart_eligible",
+        "best_seller_candidate",
+        "shipping_guaranteed"
+      ],
+      "order_backend": 1,
+      "use_thumbnail_id": false,
+      "offer_score": null,
+      "offer_share": null,
+      "match_score": null,
+      "winner_item_id": null,
+      "melicoin": null,
+      "discounts": null
+    },
+    {
+      "id": "MLA840200035",
+      "site_id": "MLA",
+      "title": "Patín Artístico Extensible 4 Ruedas Lamborghini 7303",
+      "seller": {
+        "id": 489748440,
+        "permalink": "http://perfil.mercadolibre.com.ar/TIZIBABY+S.A.",
+        "registration_date": "2019-11-15T11:33:47.000-04:00",
+        "car_dealer": false,
+        "real_estate_agency": false,
+        "tags": [
+          "normal",
+          "eshop",
+          "mshops",
+          "credits_profile",
+          "messages_as_seller"
+        ],
+        "eshop": {
+          "seller": 489748440,
+          "eshop_rubro": null,
+          "eshop_id": 406909,
+          "nick_name": "TIZIBABY S.A.",
+          "site_id": "MLA",
+          "eshop_logo_url": "http://resources.mlstatic.com/eshops/489748440v4bf5dc.png",
+          "eshop_status_id": 1,
+          "eshop_experience": 0,
+          "eshop_locations": [
+          ]
+        },
+        "seller_reputation": {
+          "power_seller_status": "platinum",
+          "level_id": "5_green",
+          "metrics": {
+            "cancellations": {
+              "period": "60 days",
+              "rate": 0.0087,
+              "value": 16
+            },
+            "claims": {
+              "period": "60 days",
+              "rate": 0.0153,
+              "value": 28
+            },
+            "delayed_handling_time": {
+              "period": "60 days",
+              "rate": 0.0367,
+              "value": 63
+            },
+            "sales": {
+              "period": "60 days",
+              "completed": 1694
+            }
+          },
+          "transactions": {
+            "canceled": 1046,
+            "period": "historic",
+            "total": 15086,
+            "ratings": {
+              "negative": 0.08,
+              "neutral": 0.04,
+              "positive": 0.88
+            },
+            "completed": 14040
+          }
+        }
+      },
+      "price": 9295,
+      "prices": {
+        "id": "MLA840200035",
+        "prices": [
+          {
+            "id": "108",
+            "type": "standard",
+            "amount": 9295,
+            "regular_amount": null,
+            "currency_id": "ARS",
+            "last_updated": "2022-04-06T12:52:46Z",
+            "conditions": {
+              "context_restrictions": [
+              ],
+              "start_time": null,
+              "end_time": null,
+              "eligible": true
+            },
+            "exchange_rate_context": "DEFAULT",
+            "metadata": {
+            }
+          },
+          {
+            "id": "19",
+            "type": "promotion",
+            "amount": 9167.5,
+            "regular_amount": 9650,
+            "currency_id": "ARS",
+            "last_updated": "2021-11-03T15:13:48Z",
+            "conditions": {
+              "context_restrictions": [
+                "channel_marketplace"
+              ],
+              "start_time": "2021-11-07T09:00:00Z",
+              "end_time": "2021-11-07T15:00:00Z",
+              "eligible": true
+            },
+            "exchange_rate_context": "DEFAULT",
+            "metadata": {
+              "promotion_id": "5200291-MLA840200035",
+              "promotion_type": "lightning"
+            }
+          }
+        ],
+        "presentation": {
+          "display_currency": "ARS"
+        },
+        "payment_method_prices": [
+        ],
+        "reference_prices": [
+          {
+            "id": "117",
+            "type": "min_standard",
+            "conditions": {
+              "context_restrictions": [
+                "channel_marketplace"
+              ],
+              "start_time": null,
+              "end_time": null,
+              "eligible": true
+            },
+            "amount": 8800,
+            "currency_id": "ARS",
+            "exchange_rate_context": "DEFAULT",
+            "tags": [
+            ],
+            "last_updated": "2022-05-04T04:13:26Z"
+          },
+          {
+            "id": "118",
+            "type": "was",
+            "conditions": {
+              "context_restrictions": [
+                "channel_marketplace"
+              ],
+              "start_time": "2022-05-04T04:13:26Z",
+              "end_time": "2022-05-11T04:13:26Z",
+              "eligible": true
+            },
+            "amount": 8800,
+            "currency_id": "ARS",
+            "exchange_rate_context": "DEFAULT",
+            "tags": [
+            ],
+            "last_updated": "2022-05-04T04:13:26Z"
+          }
+        ],
+        "purchase_discounts": [
+        ]
+      },
+      "sale_price": null,
+      "currency_id": "ARS",
+      "available_quantity": 150,
+      "sold_quantity": 500,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_special",
+      "stop_time": "2040-02-15T14:42:33.000Z",
+      "condition": "new",
+      "permalink": "https://articulo.mercadolibre.com.ar/MLA-840200035-patin-artistico-extensible-4-ruedas-lamborghini-7303-_JM",
+      "thumbnail": "http://http2.mlstatic.com/D_767867-MLA49586856228_042022-O.jpg",
+      "thumbnail_id": "767867-MLA49586856228_042022",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 1318.11,
+        "rate": 70.17,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-C",
+        "state_name": "Capital Federal",
+        "city_id": "TUxBQk1PTjE2OTBa",
+        "city_name": "Monte Castro"
+      },
+      "shipping": {
+        "free_shipping": true,
+        "mode": "me2",
+        "tags": [
+          "fulfillment",
+          "self_service_in",
+          "mandatory_free_shipping"
+        ],
+        "logistic_type": "fulfillment",
+        "store_pick_up": false
+      },
+      "seller_address": {
+        "id": "",
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-C",
+          "name": "Capital Federal"
+        },
+        "city": {
+          "id": "TUxBQk1PTjE2OTBa",
+          "name": "Monte Castro"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+        {
+          "value_id": "2324340",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2324340",
+              "name": "Dencar",
+              "struct": null,
+              "source": 2860837171021627
+            }
+          ],
+          "attribute_group_name": "Otros",
+          "id": "BRAND",
+          "name": "Marca",
+          "value_name": "Dencar",
+          "attribute_group_id": "OTHERS",
+          "source": 2860837171021627
+        },
+        {
+          "value_name": "Nuevo",
+          "value_struct": null,
+          "attribute_group_name": "Otros",
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null,
+              "source": 2860837171021627
+            }
+          ],
+          "attribute_group_id": "OTHERS",
+          "source": 2860837171021627
+        },
+        {
+          "source": 1000427007642219,
+          "id": "LINE",
+          "name": "Línea",
+          "value_id": "44560",
+          "value_name": "Lamborghini",
+          "value_struct": null,
+          "attribute_group_name": "Otros",
+          "values": [
+            {
+              "id": "44560",
+              "name": "Lamborghini",
+              "struct": null,
+              "source": 1000427007642219
+            }
+          ],
+          "attribute_group_id": "OTHERS"
+        },
+        {
+          "attribute_group_name": "Otros",
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_name": "7304",
+          "attribute_group_id": "OTHERS",
+          "value_id": "3544058",
+          "value_struct": null,
+          "values": [
+            {
+              "struct": null,
+              "source": 3376461333454861,
+              "id": "3544058",
+              "name": "7304"
+            }
+          ],
+          "source": 3376461333454861
+        }
+      ],
+      "original_price": null,
+      "category_id": "MLA115383",
+      "official_store_id": null,
+      "domain_id": "MLA-ROLLER_SKATES",
+      "catalog_product_id": null,
+      "tags": [
+        "brand_verified",
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "loyalty_discount_eligible",
+        "immediate_payment",
+        "cart_eligible",
+        "best_seller_candidate",
+        "shipping_guaranteed"
+      ],
+      "order_backend": 2,
+      "use_thumbnail_id": false,
+      "offer_score": null,
+      "offer_share": null,
+      "match_score": null,
+      "winner_item_id": null,
+      "melicoin": null,
+      "discounts": null
+    },
+    {
+      "id": "MLA827429359",
+      "site_id": "MLA",
+      "title": "Patines 4 Ruedas Artístico Profesional Talles 26 Al 39 ",
+      "seller": {
+        "id": 493483386,
+        "permalink": "http://perfil.mercadolibre.com.ar/DISTRIBUIDORAGRUPOUMSA",
+        "registration_date": "2019-11-26T15:46:04.000-04:00",
+        "car_dealer": false,
+        "real_estate_agency": false,
+        "tags": [
+          "normal",
+          "eshop",
+          "mshops",
+          "credits_profile",
+          "messages_as_seller"
+        ],
+        "eshop": {
+          "seller": 493483386,
+          "eshop_rubro": null,
+          "eshop_id": 397985,
+          "nick_name": "DISTRIBUIDORAGRUPOUMSA-MDZ",
+          "site_id": "MLA",
+          "eshop_logo_url": "http://resources.mlstatic.com/eshops/493483386va2eed6.png",
+          "eshop_status_id": 2,
+          "eshop_experience": 0,
+          "eshop_locations": [
+          ]
+        },
+        "seller_reputation": {
+          "power_seller_status": "platinum",
+          "level_id": "5_green",
+          "metrics": {
+            "cancellations": {
+              "period": "60 days",
+              "rate": 0,
+              "value": 0
+            },
+            "claims": {
+              "period": "60 days",
+              "rate": 0.0069,
+              "value": 5
+            },
+            "delayed_handling_time": {
+              "period": "60 days",
+              "rate": 0,
+              "value": 0
+            },
+            "sales": {
+              "period": "60 days",
+              "completed": 691
+            }
+          },
+          "transactions": {
+            "canceled": 335,
+            "period": "historic",
+            "total": 5511,
+            "ratings": {
+              "negative": 0.02,
+              "neutral": 0.01,
+              "positive": 0.97
+            },
+            "completed": 5176
+          }
+        }
+      },
+      "price": 7600,
+      "prices": {
+        "id": "MLA827429359",
+        "prices": [
+          {
+            "id": "14",
+            "type": "standard",
+            "amount": 7600,
+            "regular_amount": null,
+            "currency_id": "ARS",
+            "last_updated": "2022-04-26T20:10:37Z",
+            "conditions": {
+              "context_restrictions": [
+              ],
+              "start_time": null,
+              "end_time": null,
+              "eligible": true
+            },
+            "exchange_rate_context": "DEFAULT",
+            "metadata": {
+            }
+          }
+        ],
+        "presentation": {
+          "display_currency": "ARS"
+        },
+        "payment_method_prices": [
+        ],
+        "reference_prices": [
+          {
+            "id": "12",
+            "type": "min_standard",
+            "conditions": {
+              "context_restrictions": [
+                "channel_marketplace"
+              ],
+              "start_time": null,
+              "end_time": null,
+              "eligible": true
+            },
+            "amount": 6990,
+            "currency_id": "ARS",
+            "exchange_rate_context": "DEFAULT",
+            "tags": [
+            ],
+            "last_updated": "2022-02-22T07:31:18Z"
+          }
+        ],
+        "purchase_discounts": [
+        ]
+      },
+      "sale_price": null,
+      "currency_id": "ARS",
+      "available_quantity": 1,
+      "sold_quantity": 500,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_special",
+      "stop_time": "2039-11-21T04:00:00.000Z",
+      "condition": "new",
+      "permalink": "https://articulo.mercadolibre.com.ar/MLA-827429359-patines-4-ruedas-artistico-profesional-talles-26-al-39-_JM",
+      "thumbnail": "http://http2.mlstatic.com/D_970605-MLA33005305030_112019-O.jpg",
+      "thumbnail_id": "970605-MLA33005305030_112019",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 1077.74,
+        "rate": 70.17,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-C",
+        "state_name": "Capital Federal",
+        "city_id": "TUxBQlBBTDI1MTVa",
+        "city_name": "Palermo"
+      },
+      "shipping": {
+        "free_shipping": true,
+        "mode": "me2",
+        "tags": [
+          "fulfillment",
+          "mandatory_free_shipping"
+        ],
+        "logistic_type": "fulfillment",
+        "store_pick_up": false
+      },
+      "seller_address": {
+        "id": "",
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-C",
+          "name": "Capital Federal"
+        },
+        "city": {
+          "id": "TUxBQlBBTDI1MTVa",
+          "name": "Palermo"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+        {
+          "value_id": "45025",
+          "value_name": "Dolphin",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "source": 6587939990796619,
+          "id": "BRAND",
+          "name": "Marca",
+          "value_struct": null,
+          "values": [
+            {
+              "source": 6587939990796619,
+              "id": "45025",
+              "name": "Dolphin",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "source": 3570163010178927,
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null,
+              "source": 3570163010178927
+            }
+          ],
+          "attribute_group_name": "Otros",
+          "attribute_group_id": "OTHERS"
+        },
+        {
+          "value_struct": null,
+          "attribute_group_id": "OTHERS",
+          "id": "MODEL",
+          "value_id": null,
+          "values": [
+            {
+              "id": null,
+              "name": "168Y",
+              "struct": null,
+              "source": 3376461333454861
+            }
+          ],
+          "attribute_group_name": "Otros",
+          "source": 3376461333454861,
+          "name": "Modelo",
+          "value_name": "168Y"
+        }
+      ],
+      "original_price": null,
+      "category_id": "MLA115383",
+      "official_store_id": null,
+      "domain_id": "MLA-ROLLER_SKATES",
+      "catalog_product_id": "MLA9795006",
+      "tags": [
+        "brand_verified",
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "loyalty_discount_eligible",
+        "immediate_payment",
+        "cart_eligible",
+        "shipping_guaranteed"
+      ],
+      "order_backend": 3,
+      "use_thumbnail_id": false,
+      "offer_score": null,
+      "offer_share": null,
+      "match_score": null,
+      "winner_item_id": null,
+      "melicoin": null,
+      "discounts": null
+    },
+    {
+      "id": "MLA842577556",
+      "site_id": "MLA",
+      "title": "Patines Profesionales Artistico Apto Saltos Giros Importador",
+      "seller": {
+        "id": 129994787,
+        "permalink": "http://perfil.mercadolibre.com.ar/PAPAISONSTORE",
+        "registration_date": "2012-12-05T15:55:34.000-04:00",
+        "car_dealer": false,
+        "real_estate_agency": false,
+        "tags": [
+          "normal",
+          "credits_priority_4",
+          "eshop",
+          "mshops",
+          "credits_profile",
+          "messages_as_seller"
+        ],
+        "eshop": {
+          "seller": 129994787,
+          "eshop_rubro": null,
+          "eshop_id": 256652,
+          "nick_name": "CALZADOSLINK",
+          "site_id": "MLA",
+          "eshop_logo_url": "http://resources.mlstatic.com/eshops/logo-129994787-1652098399212.jpeg",
+          "eshop_status_id": 1,
+          "eshop_experience": 0,
+          "eshop_locations": [
+          ]
+        },
+        "seller_reputation": {
+          "power_seller_status": "platinum",
+          "level_id": "5_green",
+          "metrics": {
+            "cancellations": {
+              "period": "60 days",
+              "rate": 0.0007,
+              "value": 4
+            },
+            "claims": {
+              "period": "60 days",
+              "rate": 0.0075,
+              "value": 38
+            },
+            "delayed_handling_time": {
+              "period": "60 days",
+              "rate": 0.0014,
+              "value": 7
+            },
+            "sales": {
+              "period": "60 days",
+              "completed": 4777
+            }
+          },
+          "transactions": {
+            "canceled": 1764,
+            "period": "historic",
+            "total": 40907,
+            "ratings": {
+              "negative": 0.01,
+              "neutral": 0,
+              "positive": 0.99
+            },
+            "completed": 39143
+          }
+        }
+      },
+      "price": 21379,
+      "prices": {
+        "id": "MLA842577556",
+        "prices": [
+          {
+            "id": "126",
+            "type": "standard",
+            "amount": 21379,
+            "regular_amount": null,
+            "currency_id": "ARS",
+            "last_updated": "2022-05-06T20:50:38Z",
+            "conditions": {
+              "context_restrictions": [
+                "channel_marketplace"
+              ],
+              "start_time": null,
+              "end_time": null,
+              "eligible": true
+            },
+            "exchange_rate_context": "DEFAULT",
+            "metadata": {
+            }
+          },
+          {
+            "id": "125",
+            "type": "standard",
+            "amount": 20737.63,
+            "regular_amount": null,
+            "currency_id": "ARS",
+            "last_updated": "2022-05-06T20:50:38Z",
+            "conditions": {
+              "context_restrictions": [
+                "channel_mshops"
+              ],
+              "start_time": null,
+              "end_time": null,
+              "eligible": true
+            },
+            "exchange_rate_context": "DEFAULT",
+            "metadata": {
+            }
+          }
+        ],
+        "presentation": {
+          "display_currency": "ARS"
+        },
+        "payment_method_prices": [
+        ],
+        "reference_prices": [
+          {
+            "id": "129",
+            "type": "min_standard",
+            "conditions": {
+              "context_restrictions": [
+                "channel_marketplace"
+              ],
+              "start_time": null,
+              "end_time": null,
+              "eligible": true
+            },
+            "amount": 17429.9,
+            "currency_id": "ARS",
+            "exchange_rate_context": "DEFAULT",
+            "tags": [
+            ],
+            "last_updated": "2022-05-19T04:13:20Z"
+          },
+          {
+            "id": "130",
+            "type": "was",
+            "conditions": {
+              "context_restrictions": [
+                "channel_marketplace"
+              ],
+              "start_time": "2022-05-19T04:13:20Z",
+              "end_time": "2022-05-26T04:13:20Z",
+              "eligible": true
+            },
+            "amount": 19738.53,
+            "currency_id": "ARS",
+            "exchange_rate_context": "DEFAULT",
+            "tags": [
+            ],
+            "last_updated": "2022-05-19T04:13:20Z"
+          }
+        ],
+        "purchase_discounts": [
+        ]
+      },
+      "sale_price": null,
+      "currency_id": "ARS",
+      "available_quantity": 50,
+      "sold_quantity": 200,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_special",
+      "stop_time": "2040-03-01T04:00:00.000Z",
+      "condition": "new",
+      "permalink": "https://articulo.mercadolibre.com.ar/MLA-842577556-patines-profesionales-artistico-apto-saltos-giros-importador-_JM",
+      "thumbnail": "http://http2.mlstatic.com/D_808930-MLA48025687887_102021-O.jpg",
+      "thumbnail_id": "808930-MLA48025687887_102021",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 3031.72,
+        "rate": 70.17,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-C",
+        "state_name": "Capital Federal",
+        "city_id": "TUxBQlZJTDcwOTla",
+        "city_name": "Villa Urquiza"
+      },
+      "shipping": {
+        "free_shipping": true,
+        "mode": "me2",
+        "tags": [
+          "self_service_in",
+          "mandatory_free_shipping"
+        ],
+        "logistic_type": "cross_docking",
+        "store_pick_up": false
+      },
+      "seller_address": {
+        "id": "",
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-C",
+          "name": "Capital Federal"
+        },
+        "city": {
+          "id": "TUxBQlZJTDcwOTla",
+          "name": "Villa Urquiza"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+        {
+          "name": "Marca",
+          "value_name": "Papaison",
+          "value_struct": null,
+          "attribute_group_id": "OTHERS",
+          "id": "BRAND",
+          "value_id": "3571299",
+          "values": [
+            {
+              "id": "3571299",
+              "name": "Papaison",
+              "struct": null,
+              "source": 6808261514773724
+            }
+          ],
+          "attribute_group_name": "Otros",
+          "source": 6808261514773724
+        },
+        {
+          "attribute_group_name": "Otros",
+          "source": 6808261514773724,
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "attribute_group_id": "OTHERS",
+          "value_name": "Nuevo",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null,
+              "source": 6808261514773724
+            }
+          ]
+        },
+        {
+          "value_name": "SG-001",
+          "value_struct": null,
+          "attribute_group_id": "OTHERS",
+          "values": [
+            {
+              "name": "SG-001",
+              "struct": null,
+              "source": 6808261514773724,
+              "id": null
+            }
+          ],
+          "attribute_group_name": "Otros",
+          "source": 6808261514773724,
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": null
+        }
+      ],
+      "original_price": null,
+      "category_id": "MLA115383",
+      "official_store_id": null,
+      "domain_id": "MLA-ROLLER_SKATES",
+      "catalog_product_id": null,
+      "tags": [
+        "brand_verified",
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "standard_price_by_channel",
+        "immediate_payment",
+        "cart_eligible",
+        "best_seller_candidate",
+        "shipping_guaranteed"
+      ],
+      "order_backend": 4,
+      "use_thumbnail_id": false,
+      "offer_score": null,
+      "offer_share": null,
+      "match_score": null,
+      "winner_item_id": null,
+      "melicoin": null,
+      "discounts": null
+    },
+    {
+      "id": "MLA773518794",
+      "site_id": "MLA",
+      "title": "Patines Extensibles Clasicos Niñas Niños Infantiles Ajustables 23 Al 32 Mod: Patin Ajustable",
+      "seller": {
+        "id": 129994787,
+        "permalink": "http://perfil.mercadolibre.com.ar/PAPAISONSTORE",
+        "registration_date": "2012-12-05T15:55:34.000-04:00",
+        "car_dealer": false,
+        "real_estate_agency": false,
+        "tags": [
+          "normal",
+          "credits_priority_4",
+          "eshop",
+          "mshops",
+          "credits_profile",
+          "messages_as_seller"
+        ],
+        "eshop": {
+          "seller": 129994787,
+          "eshop_rubro": null,
+          "eshop_id": 256652,
+          "nick_name": "CALZADOSLINK",
+          "site_id": "MLA",
+          "eshop_logo_url": "http://resources.mlstatic.com/eshops/logo-129994787-1652098399212.jpeg",
+          "eshop_status_id": 1,
+          "eshop_experience": 0,
+          "eshop_locations": [
+          ]
+        },
+        "seller_reputation": {
+          "power_seller_status": "platinum",
+          "level_id": "5_green",
+          "metrics": {
+            "cancellations": {
+              "period": "60 days",
+              "rate": 0.0007,
+              "value": 4
+            },
+            "claims": {
+              "period": "60 days",
+              "rate": 0.0075,
+              "value": 38
+            },
+            "delayed_handling_time": {
+              "period": "60 days",
+              "rate": 0.0014,
+              "value": 7
+            },
+            "sales": {
+              "period": "60 days",
+              "completed": 4777
+            }
+          },
+          "transactions": {
+            "canceled": 1764,
+            "period": "historic",
+            "total": 40907,
+            "ratings": {
+              "negative": 0.01,
+              "neutral": 0,
+              "positive": 0.99
+            },
+            "completed": 39143
+          }
+        }
+      },
+      "price": 2919,
+      "prices": {
+        "id": "MLA773518794",
+        "prices": [
+          {
+            "id": "161",
+            "type": "standard",
+            "amount": 2919,
+            "regular_amount": null,
+            "currency_id": "ARS",
+            "last_updated": "2022-05-06T20:50:48Z",
+            "conditions": {
+              "context_restrictions": [
+                "channel_marketplace"
+              ],
+              "start_time": null,
+              "end_time": null,
+              "eligible": true
+            },
+            "exchange_rate_context": "DEFAULT",
+            "metadata": {
+            }
+          },
+          {
+            "id": "160",
+            "type": "standard",
+            "amount": 2831.43,
+            "regular_amount": null,
+            "currency_id": "ARS",
+            "last_updated": "2022-05-06T20:50:48Z",
+            "conditions": {
+              "context_restrictions": [
+                "channel_mshops"
+              ],
+              "start_time": null,
+              "end_time": null,
+              "eligible": true
+            },
+            "exchange_rate_context": "DEFAULT",
+            "metadata": {
+            }
+          }
+        ],
+        "presentation": {
+          "display_currency": "ARS"
+        },
+        "payment_method_prices": [
+        ],
+        "reference_prices": [
+          {
+            "id": "167",
+            "type": "min_standard",
+            "conditions": {
+              "context_restrictions": [
+                "channel_marketplace"
+              ],
+              "start_time": null,
+              "end_time": null,
+              "eligible": true
+            },
+            "amount": 2559.8,
+            "currency_id": "ARS",
+            "exchange_rate_context": "DEFAULT",
+            "tags": [
+            ],
+            "last_updated": "2022-05-21T04:17:55Z"
+          },
+          {
+            "id": "168",
+            "type": "was",
+            "conditions": {
+              "context_restrictions": [
+                "channel_marketplace"
+              ],
+              "start_time": "2022-05-21T04:17:55Z",
+              "end_time": "2022-05-28T04:17:55Z",
+              "eligible": true
+            },
+            "amount": 2695.63,
+            "currency_id": "ARS",
+            "exchange_rate_context": "DEFAULT",
+            "tags": [
+            ],
+            "last_updated": "2022-05-21T04:17:55Z"
+          }
+        ],
+        "purchase_discounts": [
+        ]
+      },
+      "sale_price": null,
+      "currency_id": "ARS",
+      "available_quantity": 500,
+      "sold_quantity": 500,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_special",
+      "stop_time": "2039-02-25T04:00:00.000Z",
+      "condition": "new",
+      "permalink": "https://articulo.mercadolibre.com.ar/MLA-773518794-patines-extensibles-clasicos-ninas-ninos-infantiles-ajustables-23-al-32-mod-patin-ajustable-_JM",
+      "thumbnail": "http://http2.mlstatic.com/D_947053-MLA31120596328_062019-O.jpg",
+      "thumbnail_id": "947053-MLA31120596328_062019",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 413.94,
+        "rate": 70.17,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-C",
+        "state_name": "Capital Federal",
+        "city_id": "TUxBQlZJTDcwOTla",
+        "city_name": "Villa Urquiza"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2",
+        "tags": [
+          "self_service_in"
+        ],
+        "logistic_type": "cross_docking",
+        "store_pick_up": false
+      },
+      "seller_address": {
+        "id": "",
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-C",
+          "name": "Capital Federal"
+        },
+        "city": {
+          "id": "TUxBQlZJTDcwOTla",
+          "name": "Villa Urquiza"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+        {
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3571299",
+              "name": "Papaison",
+              "struct": null,
+              "source": 1572
+            }
+          ],
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "id": "BRAND",
+          "value_id": "3571299",
+          "value_name": "Papaison",
+          "source": 1572,
+          "name": "Marca"
+        },
+        {
+          "source": 1572,
+          "value_id": "2230284",
+          "value_struct": null,
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null,
+              "source": 1572
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "id": null,
+              "name": "Regulable",
+              "struct": null,
+              "source": 1572
+            }
+          ],
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_name": "Regulable",
+          "value_struct": null,
+          "value_id": null,
+          "source": 1572
+        }
+      ],
+      "original_price": null,
+      "category_id": "MLA115383",
+      "official_store_id": null,
+      "domain_id": "MLA-ROLLER_SKATES",
+      "catalog_product_id": null,
+      "tags": [
+        "brand_verified",
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "loyalty_discount_eligible",
+        "standard_price_by_channel",
+        "immediate_payment",
+        "cart_eligible",
+        "best_seller_candidate",
+        "shipping_guaranteed"
+      ],
+      "order_backend": 5,
+      "use_thumbnail_id": false,
+      "offer_score": null,
+      "offer_share": null,
+      "match_score": null,
+      "winner_item_id": null,
+      "melicoin": null,
+      "discounts": null
+    }
+  ]
+}
