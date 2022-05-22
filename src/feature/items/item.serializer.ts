@@ -1,4 +1,4 @@
-import { ApiItemDescription } from './../../types.d'
+import { ApiFilter, ApiItemDescription, Category } from './../../types.d'
 import { ApiItem, Item } from '../../types'
 
 export const serializerItem = ({ item, description }: {item: ApiItem, description?: ApiItemDescription}): Item => {
@@ -19,4 +19,16 @@ export const serializerItem = ({ item, description }: {item: ApiItem, descriptio
 
 export const serializerItems = (items: ApiItem[]): Item[] => {
   return items.map(item => serializerItem({ item }))
+}
+
+export const serializerCategories = (filters: ApiFilter[]): Category[] => {
+  const categoryFilter = filters.find(filter => filter.id === 'category')
+  if (categoryFilter != null) {
+    return categoryFilter.values[0].path_from_root.map(category => ({
+      id: category.id,
+      name: category.name
+    }))
+  }
+
+  return []
 }

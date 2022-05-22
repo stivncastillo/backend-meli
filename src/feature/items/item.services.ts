@@ -3,10 +3,14 @@ import { ApiItem, ApiItemResponse, ApiItemListResponse } from '../../types'
 import client from '../../config/axios'
 import { ErrorMessages } from '../../config/errorsMessages'
 
-export const getItems = async (q: string): Promise<ApiItem[]> => {
+export const getItems = async (q: string): Promise<ApiItemListResponse> => {
   try {
     const result = await client.get<ApiItemListResponse>(`sites/MLA/search?q=${q}`)
-    return result.data.results
+
+    return {
+      results: result.data.results,
+      filters: result.data.filters
+    }
   } catch (error) {
     throw new Error(ErrorMessages.ServerDidntRespond)
   }

@@ -1,7 +1,7 @@
 import { serializerResponse, serializerErrorResponse } from './../../utils/serializer'
 import { RequestHandler } from 'express'
 import { Item } from '../../types'
-import { serializerItem, serializerItems } from './item.serializer'
+import { serializerCategories, serializerItem, serializerItems } from './item.serializer'
 import * as itemServices from './item.services'
 import { ErrorMessages } from '../../config/errorsMessages'
 
@@ -13,8 +13,13 @@ export const getItems = (async (req, res) => {
     if (q !== '' && q !== undefined) {
       const response = await itemServices.getItems(String(q))
       if (response !== undefined) {
-        const serializedItems = serializerItems(response)
-        res.status(200).send(serializerResponse({ author: locals.author, ...serializedItems }))
+        const serializedItems = serializerItems(response.results)
+        const serializedCategories = serializerCategories(response.filters)
+        res.status(200).send(serializerResponse({
+          author: locals.author,
+          items: serializedItems,
+          categories: serializedCategories
+        }))
       }
 
       return
@@ -41,7 +46,7 @@ export const getItem = (async (req, res) => {
 
       if (item !== null && description !== null) {
         const serializeditem: Item = serializerItem({ item, description })
-        res.status(200).send(serializerResponse({ author: locals.author, ...serializeditem }))
+        res.status(200).send(serializerResponse({ author: locals.author, item: serializeditem }))
       }
 
       return

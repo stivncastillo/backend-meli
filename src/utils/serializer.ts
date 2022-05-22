@@ -1,7 +1,7 @@
 import { AppErrorResponse } from './../types.d'
-import { AppSuccessResponse, DataResponse } from '../types'
+import { AppSuccessResponse, DataItemsResponse, DataItemResponse } from '../types'
 
-export const serializerResponse = (response: DataResponse): AppSuccessResponse => {
+export const serializerResponse = (response: DataItemsResponse | DataItemResponse): AppSuccessResponse => {
   return {
     success: true,
     data: response
