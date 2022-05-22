@@ -1,9 +1,22 @@
-export interface ApiListResponse {
+// Responses
+export type DataResponse = Item[] | Item & {author: Autor}
+export interface AppResponse {
+  success: boolean
+}
+export interface AppSuccessResponse extends AppResponse {
+  data: DataResponse
+}
+
+export interface AppErrorResponse extends AppResponse {
+  message: string
+}
+export interface ApiItemListResponse {
   results: ApiItem[] | []
 }
 export type ApiItemResponse = ApiItem
-export type ApiItemDescriptionResponse = ItemDescription
+export type ApiItemDescriptionResponse = ApiItemDescription
 
+// Api ML
 export interface ApiItem {
   id: string
   title: string
@@ -15,16 +28,21 @@ export interface ApiItem {
   condition: string
   currency_id: string
   initial_quantity: number
-  shipping: Shipping
+  shipping: ApiShipping
   available_quantity: number
   sold_quantity: number
   thumbnail: string
 }
 
-export interface Shipping {
+export interface ApiShipping {
   free_shipping: boolean
 }
 
+export interface ApiItemDescription {
+  plain_text: string
+}
+
+// Models
 export interface Item extends Pick<ApiItem, 'id' | 'title' | 'condition'> {
   price: {
     currency: string
@@ -35,7 +53,7 @@ export interface Item extends Pick<ApiItem, 'id' | 'title' | 'condition'> {
   free_shipping: boolean
   description: string | null
 }
-
-export interface ItemDescription {
-  plain_text: string
+export interface Autor {
+  name: string
+  lastname: string
 }

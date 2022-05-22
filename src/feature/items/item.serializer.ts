@@ -1,7 +1,7 @@
-import { ItemDescription } from './../../types.d'
+import { ApiItemDescription } from './../../types.d'
 import { ApiItem, Item } from '../../types'
 
-export const serializerItem = ({ item, description }: {item: ApiItem, description?: ItemDescription}): Item => {
+export const serializerItem = ({ item, description }: {item: ApiItem, description?: ApiItemDescription}): Item => {
   return {
     id: item.id,
     title: item.title,
